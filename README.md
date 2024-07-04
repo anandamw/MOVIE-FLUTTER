@@ -1,8 +1,9 @@
-
 # Movie App
+
 Movie app made in Flutter with clean architecture using BLoC, Hive and the movie db API.
 
 ## Features
+
 - Search feature
 - Watchlist feature
 - Now playing movies
@@ -19,8 +20,8 @@ Movie app made in Flutter with clean architecture using BLoC, Hive and the movie
 - Similar tv shows
 - TV show season details
 
-
 ## Screenshots
+
 <p>
   <img src="https://github.com/mohamadayash1/flutter-movie-app/blob/main/screenshots/01.png" width="250" />
   <img src="https://github.com/mohamadayash1/flutter-movie-app/blob/main/screenshots/02.png" width="250" />
@@ -33,23 +34,40 @@ Movie app made in Flutter with clean architecture using BLoC, Hive and the movie
 </p>
 
 ## Installation
+
 ### 1. Clone the repo
+
 ```bash
 git clone https://github.com/mohamadayash22/flutter-movie-app.git
 cd flutter-movie-app
 ```
+
 ### 2. Run pub get
+
 ```bash
 flutter pub get
 ```
+
 ### 3. Add your API key into api_constants file
+
 ```bash
 apiKey = 'YOUR_API_KEY';
 ```
+
 ### 4. Run the app
-```bash 
+
+```bash
 flutter run
 ```
+
+### DART FIX ### 
+
+```bash
+flutter clean
+flutter pub get
+flutter analyze
+dart fix --apply
+flutter pub upgrade
 
 ## Packages
 - [cached_network_image](https://pub.dev/packages/cached_network_image)
@@ -73,3 +91,4 @@ flutter run
 
 
 
+```
